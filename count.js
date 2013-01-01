@@ -26,7 +26,7 @@ function validation(){
 }
 function markSender(mark){
 	var elem = document.getElementById('ball_list');
-	elem.innerHTML ='<style>.ball{text-align:center;}</style><div class="result"> <div class="result_main"><div class="result_background blue"><span>'+mark+'</span></div></div></div></div></div> ';
+	elem.innerHTML ='<style>.ball{text-align:center;}</style><span class="result">'+mark+'</span>';
     var button = document.getElementById('button_area');
     button.innerHTML ='<a href="#" class="button" onClick="location.reload();">Ще раз</a>'
 	}
