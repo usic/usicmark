@@ -52,9 +52,6 @@ form div{
 	min-width:243px;
 
 }
-.subject:hover {
-	cursor: pointer;
-}
 input{
 	width:30px;
 	border: 1px solid #cecece;
