@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-		function show_text_mp(){
-=======
-  	function show_text_mp(){
->>>>>>> d32fd606d012a6f3d00e619cd754b062390659e6
+function show_text_mp(){
 			document.getElementById('mp_on').innerHTML ='Мови Програмування';
 		}
 		function hide_text_mp(){
@@ -52,8 +48,4 @@
 		}	
 		function remove_faq(){
 			document.getElementById('footer').innerHTML ='';
-<<<<<<< HEAD
 		}
-=======
-		}
->>>>>>> d32fd606d012a6f3d00e619cd754b062390659e6
