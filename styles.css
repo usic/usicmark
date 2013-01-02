@@ -1,0 +1,144 @@
+div{
+  font-family: Tahoma, sans-serif;
+}
+.top{
+	width: auto;
+	text-align: center;
+	margin: 0 auto;
+}
+.usic{
+	font-size:72px;
+	color: #4CB1F5;
+}
+.mark{
+	font-size:54px;
+}
+.title{
+	font-size:22px;
+}
+.name{
+	width: auto; 
+	text-align: center; 
+	padding: 20px 0 0 0; 
+	margin: 0 auto;
+}
+.name>div{
+	display: inline-block; 
+	position: relative;
+	z-index: 6;
+}
+.ball{
+	border: 1px solid #cecece;
+	border-radius: 12px;
+	padding: 20px 20px 20px 20px;
+	max-width:400px;
+	margin: 20px auto;
+}
+li{
+	margin:0px;
+	list-style-type: none;
+}
+.list div{
+	display: inline-block; 
+}
+form {
+	margin:0px;
+	padding:0px;
+}
+form div{
+	display: inline-block; 
+}
+.subject{
+	min-width:243px;
+
+}
+input{
+	width:30px;
+	border: 1px solid #cecece;
+}
+.credit{
+	margin-left:20px;
+	width:90px;
+}
+.button_area{
+	text-align:center;
+}
+.button {
+	background-color:#4cb1f5;
+	-moz-border-radius:9px;
+	-webkit-border-radius:9px;
+	border-radius:9px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:21px;
+	font-weight:bold;
+	padding:7px 24px;
+	text-decoration:none;
+}.button:hover {
+	background-color:#008ae6;
+}.button:active {
+	position:relative;
+	top:1px;
+}
+/* FOOTER STYLES */
+#footer {
+	width: 600px;
+	margin: 20px auto; 
+	text-align: center;
+}
+#footer a {
+	display: inline-block;
+}
+.footer_main {
+	width: 64px; 
+	height: 64px; 
+	border: 1px solid #eee; 
+	border-radius: 32px;
+	text-align: center;
+	display: inline-block;
+}
+.footer_main:hover {
+	cursor: pointer;
+}
+.footer_background {
+	width: 48px; 
+	height: 48px; 
+	border-radius: 24px; 
+	margin: 8px auto;
+}
+.footer_background span {
+	font-size: 40px; 
+	color: #fff; 
+	margin: 1px auto;
+	display: inline-block;
+}
+.blue {
+	background: #4CB1F5;
+}
+.result {
+	max-width:400px; 
+	margin: 20px auto; 
+	text-align: center;
+}
+.result_main {
+	width: 100px; 
+	height: 100px; 
+	border: 1px solid #eee; 
+	border-radius: 50px;
+}
+
+.result_background {
+	width: 80px; 
+	height: 80px; 
+	border-radius: 40px; 
+	margin: 10px auto;
+}
+.result_background span {
+	font-size: 60px; 
+	color: #fff; 
+	margin: 6px auto; 
+	margin-left:6px; 
+	display: inline-block;
+}
