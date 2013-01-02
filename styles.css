@@ -1,5 +1,9 @@
 div{
+<<<<<<< HEAD
 	font-family: Tahoma, sans-serif;
+=======
+  font-family: Tahoma, sans-serif;
+>>>>>>> d32fd606d012a6f3d00e619cd754b062390659e6
 }
 .top{
 	width: auto;
@@ -52,9 +56,12 @@ form div{
 	min-width:243px;
 
 }
+<<<<<<< HEAD
 .subject:hover {
 	cursor: pointer;
 }
+=======
+>>>>>>> d32fd606d012a6f3d00e619cd754b062390659e6
 input{
 	width:30px;
 	border: 1px solid #cecece;
@@ -99,6 +106,11 @@ input{
 	height: 64px; 
 	border: 1px solid #eee; 
 	border-radius: 32px;
+<<<<<<< HEAD
+=======
+	text-align: center;
+	display: inline-block;
+>>>>>>> d32fd606d012a6f3d00e619cd754b062390659e6
 }
 .footer_main:hover {
 	cursor: pointer;
@@ -112,7 +124,11 @@ input{
 .footer_background span {
 	font-size: 40px; 
 	color: #fff; 
+<<<<<<< HEAD
 	margin: 3px auto;
+=======
+	margin: 1px auto;
+>>>>>>> d32fd606d012a6f3d00e619cd754b062390659e6
 	display: inline-block;
 }
 .blue {
@@ -122,6 +138,29 @@ input{
 	max-width:400px; 
 	margin: 20px auto; 
 	text-align: center;
+<<<<<<< HEAD
 	font-size: 60px;
 	font-family: Tahoma, sans-serif;
+=======
+}
+.result_main {
+	width: 100px; 
+	height: 100px; 
+	border: 1px solid #eee; 
+	border-radius: 50px;
+}
+
+.result_background {
+	width: 80px; 
+	height: 80px; 
+	border-radius: 40px; 
+	margin: 10px auto;
+}
+.result_background span {
+	font-size: 60px; 
+	color: #fff; 
+	margin: 6px auto; 
+	margin-left:6px; 
+	display: inline-block;
+>>>>>>> d32fd606d012a6f3d00e619cd754b062390659e6
 }
