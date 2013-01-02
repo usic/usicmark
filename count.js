@@ -26,7 +26,7 @@ function validation(){
 }
 function markSender(mark){
 <<<<<<< HEAD
-	var elem = document.getElementById('ball_list');;
+	var elem = document.getElementById('ball_list');;;
 	elem.innerHTML ='<style>.ball{text-align:center;}</style><span class="result">'+mark+'</span>';
 =======
   var elem = document.getElementById('ball_list');
