@@ -15,6 +15,7 @@ $(document).ready(function () {
 
 	//showing about
 	$('.footer_main').click(function(){
+        $('.ball').css('border-color', '#cecece');
 		$('.ball').html('<div class="about">USIC marks - сервіс для обрахунку середнього балу. Даний сервіс знаходится в розробці і на цей період доступний тільки для інформатиків першого року навчання. Будемо раді чути ваші відгуки - usicmark@gmail.com</div>');
 		$('#footer').hide();
 		$('.button').replaceWith('<div class="button" onClick="location.reload();">Назад</div>');
