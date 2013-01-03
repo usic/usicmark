@@ -31,7 +31,8 @@ $(document).ready(function () {
         var zpbp = $('input[name=zpbp]').val();
         var um = $('input[name=um]').val();
         if (tvalid(mp)&&tvalid(odm)&&tvalid(oma)&&tvalid(mzkt)&&tvalid(am)&&tvalid(zpbp)&&tvalid(um)) {
-        	var mark = (oma*4+mzkt*2.5+um*2+mp*6+odm*6+am*2+zpbp*2)/24;
+            $('.ball').css('border-color', '#cecece');
+        	var mark = (oma*4+mzkt*2.5+um*1.5+mp*6+odm*6+am*2+zpbp*2)/24;
         	$('.ball').css('text-align', 'center');
         	$('.ball').html('<span class="result">'+mark.toFixed()+'</span>');
         	$('.button').replaceWith('<a href="#" class="button" onClick="location.reload();">Ще раз</a>');
