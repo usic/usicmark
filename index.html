@@ -6,7 +6,8 @@
 <meta charset="utf-8" /> 
 <title> USICmark </title>
 <link rel="stylesheet" type="text/css" href="styles.css" />
-<script src="count.js"></script>
+<script src="jquery-1.8.3.min.js"></script>
+<script src="count-jq.js"></script>
 <script src="watch.js"></script>
 </head>
 <body>
@@ -16,27 +17,26 @@
 			<div class="usic">USIC</div>
 			<div class="mark">mark</div>
 			</div>
-			<div class="title">Порахуй свій середній бал</div>
+			<div class="title">Визнач свій середній бал</div>
 		</div>
-		<div class="ball" id="ball">
-			<form name="ball" id="ball_list">
+		<div class="ball">
+			<form name="ball">
 				<div class="subject">Мови програмування</div> <input type="text" name="mp" id="mp" maxlength="3"><div class="credit"> 6 кредитів</div>
-				<div class="subject">Основи дискретної мат.</div> <input type="text" name="odm" id="odm" maxlength="3"><div class="credit"> 6 кредитів</div>
-				<div class="subject">Основи мат. аналізу</div> <input type="text" name="oma" id="oma" maxlength="3"><div class="credit"> 4 кредити</div>
-				<div class="subject">Методи та зас. комп. техн.</div> <input type="text" name="mzkt" id="mzkt" maxlength="3"><div class="credit"> 2.5 кредити</div>
-				<div class="subject">Англійська мова</div> <input type="text" name="am" id="am" maxlength="3"><div class="credit"> 2 кредити</div>
-				<div class="subject">Заст. прин. Болон. проц.</div> <input type="text" name="zpbp" id="zpbp" maxlength="3"><div class="credit"> 2 кредити</div>
-				<div class="subject">Українська мова</div> <input type="text" name="um" id="um" maxlength="3"><div class="credit"> 1.5 кредити</div>
+				<div class="subject">Основи дискретної мат.</div> <input type="text" name="odm" maxlength="3"><div class="credit"> 6 кредитів</div>
+				<div class="subject">Основи мат. аналізу</div> <input type="text" name="oma" maxlength="3"><div class="credit"> 4 кредити</div>
+				<div class="subject">Методи та зас. комп. техн.</div> <input type="text" name="mzkt" maxlength="3"><div class="credit"> 2.5 кредити</div>
+				<div class="subject">Англійська мова</div> <input type="text" name="am" maxlength="3"><div class="credit"> 2 кредити</div>
+				<div class="subject">Заст. прин. Болон. проц.</div> <input type="text" name="zpbp" maxlength="3"><div class="credit"> 2 кредити</div>
+				<div class="subject">Українська мова</div> <input type="text" name="um" maxlength="3"><div class="credit"> 1.5 кредити</div>
 			</form>
 		</div>
 		<div class="button_area" id="button_area">
-			<a href="#" class="button" onClick="generall()">Порахувати</a>
+			<div class="button">Визначити</div>
 		</div>
 		<div id="footer"> 
-			<a title="About" onClick="show_faq()" href="#"> 
 			<div class="footer_main"> 
 			<div class="footer_background blue"><span>?</span></div> 
-			<div></a></div> 
+			<div></div> 
 			</div> 
 		</div> 
 	</div>

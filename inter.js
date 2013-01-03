@@ -43,7 +43,7 @@ function show_text_mp(){
 		function show_faq(){
 			document.getElementById('ball_list').innerHTML ='<style> .about{line-height: 1.5;}</style><div class="about">USIC marks - сервіс для обрахунку середнього балу. Даний сервіс знаходится в розробці і на цей період доступний тільки для інформатиків першого року навчання. Будемо раді чути ваші відгуки - usicmark@gmail.com</div>';
 			var button = document.getElementById('button_area');
-    		button.innerHTML ='<a href="#" class="button" onClick="location.reload();">Назад</a>'
+    		button.innerHTML ='<a href="#" class="button" onClick="location.reload();">Назад</a>';
     		remove_faq();
 		}	
 		function remove_faq(){

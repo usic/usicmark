@@ -50,7 +50,6 @@ form div{
 }
 .subject{
 	min-width:243px;
-
 }
 input{
 	width:30px;
@@ -59,6 +58,9 @@ input{
 .credit{
 	margin-left:20px;
 	width:90px;
+}
+.about{
+	line-height: 1.5;
 }
 .button_area{
 	text-align:center;
@@ -76,11 +78,20 @@ input{
 	font-weight:bold;
 	padding:7px 24px;
 	text-decoration:none;
-}.button:hover {
+}
+.button:hover {
 	background-color:#008ae6;
-}.button:active {
+	cursor: pointer;
+
+}
+.button:active {
 	position:relative;
 	top:1px;
+}
+.incorrect {
+	text-align: center;
+	margin-top: 15px;
+	color: #FF0000;
 }
 /* FOOTER STYLES */
 #footer {
@@ -88,9 +99,7 @@ input{
 	margin: 20px auto; 
 	text-align: center;
 }
-#footer a {
-	display: inline-block;
-}
+
 .footer_main {
 	width: 64px; 
 	height: 64px; 
@@ -114,9 +123,11 @@ input{
 	margin: 0px auto;
 	display: inline-block;
 }
+/* COLORS */
 .blue {
 	background: #4CB1F5;
 }
+
 .result {
 	max-width:400px; 
 	margin: 20px auto; 
